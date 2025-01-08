@@ -12,12 +12,28 @@ console.log('Il pc ha scelto il numero:',numeroGenerato );
 //  somma il numero del pc e il numero scelto dall'utente
 
 let sommaNumeri = numeroUtente + numeroGenerato;
+
 console.log(sommaNumeri);
+
+console.log(pariODispari (sommaNumeri));
 
 // Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 
+function pariODispari(numero) {
+    
+    let risultato;
+    // Dichiariamo chi ha vinto.
+    if (numero % 2 === 0) {
+        risultato = "se hai scelto pari hai vinto!"
+    } else {
+        risultato = "se hai scelto dispari hai vinto!"
+    }
+    return risultato
+}
 
-// Dichiariamo chi ha vinto.
+
+
+
 
 
 
