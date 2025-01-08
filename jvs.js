@@ -22,7 +22,7 @@ function parolaUtenteReverse (stringa) {
 
     //verifica uguaglianza tra parole + risultato
 
-    if ( parolaUtente === parolaRevertata) {
+    if ( stringa===parolaRevertata) {
         console.log('La parola è palindroma:');
     }
     else {
