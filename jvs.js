@@ -1,7 +1,7 @@
 // Chiedere all’utente di inserire una parola
 
 let parolaUtente = prompt ("Inserisci una parola");
-
+ 
 
 console.log(parolaUtenteReverse(parolaUtente));
 
@@ -23,7 +23,7 @@ function parolaUtenteReverse (stringa) {
     //verifica uguaglianza tra parole + risultato
 
     if ( parolaUtente === parolaRevertata) {
-        console.log('La parola è palindroma:', parolaUtente);
+        console.log('La parola è palindroma:');
     }
     else {
         console.log('Mi dispiace ma la parola non è palindroma:');
